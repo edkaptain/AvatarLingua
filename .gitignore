@@ -1,0 +1,10 @@
+# Ignore everything
+/*
+
+# Mantain it
+!/.gitignore
+
+# Mantain essencial folders
+!/Assets/
+!/Packages/
+!/ProjectSettings/
