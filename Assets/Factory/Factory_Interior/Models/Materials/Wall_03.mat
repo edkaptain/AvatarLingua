@@ -106,6 +106,10 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+<<<<<<< Updated upstream
+=======
+    - _ColorMask: 15
+>>>>>>> Stashed changes
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -127,8 +131,19 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+<<<<<<< Updated upstream
     - _Surface: 0
     - _UVSec: 0
+=======
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _Surface: 0
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+>>>>>>> Stashed changes
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

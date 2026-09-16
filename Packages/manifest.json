@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.all": "72.0.0",
-    "com.rest.elevenlabs": "3.5.1",
+    "com.meta.xr.sdk.all": "205.0.0",
     "com.srcnalt.openai-unity": "https://github.com/srcnalt/OpenAI-Unity.git",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.animation.rigging": "1.4.1",
     "com.unity.cloud.gltfast": "6.14.1",
+<<<<<<< Updated upstream
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.18.0",
@@ -18,6 +18,22 @@
     "com.unity.visualscripting": "1.9.9",
     "com.unity.xr.management": "4.5.4",
     "com.unity.xr.oculus": "4.5.2",
+=======
+    "com.unity.collab-proxy": "2.12.4",
+    "com.unity.feature.development": "1.0.2",
+    "com.unity.inputsystem": "1.19.0",
+    "com.unity.meshopt.decompress": "0.1.0-preview.7",
+    "com.unity.multiplayer.center": "1.0.1",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.recorder": "5.1.6",
+    "com.unity.render-pipelines.universal": "17.3.0",
+    "com.unity.shadergraph": "17.3.0",
+    "com.unity.timeline": "1.8.12",
+    "com.unity.ugui": "2.5.0",
+    "com.unity.visualscripting": "1.9.12",
+    "com.unity.xr.management": "4.5.4",
+    "com.unity.xr.oculus": "4.5.5",
+>>>>>>> Stashed changes
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -49,7 +65,6 @@
     "com.unity.modules.vectorgraphics": "1.0.0",
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
-    "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
   },

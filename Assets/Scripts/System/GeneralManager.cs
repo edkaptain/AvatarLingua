@@ -5,6 +5,10 @@ public class GeneralManager : MonoBehaviour
     [SerializeField] int fps = 72;
     // Singlenton
     public static GeneralManager Instance;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
    
 
     private void Awake()
@@ -18,6 +22,7 @@ public class GeneralManager : MonoBehaviour
 
         // Set to 90 FPS
         Application.targetFrameRate = fps;
+<<<<<<< Updated upstream
     }
 
     private void Start()
@@ -26,4 +31,9 @@ public class GeneralManager : MonoBehaviour
     }
 
 
+=======
+
+        DontDestroyOnLoad(gameObject);
+    }
+>>>>>>> Stashed changes
 }

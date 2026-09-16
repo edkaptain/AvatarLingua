@@ -7,6 +7,14 @@ public class TutorialManager : MonoBehaviour
     [Header("Testing")]
     public Light environmentLight;
     public TutorialVoiceManager voiceManager;
+<<<<<<< Updated upstream
+=======
+    public GameObject[] activities;
+
+    public GameObject canvas;
+    public List<GameObject> slides = new List<GameObject>();
+    public int current = 0;
+>>>>>>> Stashed changes
     private void Awake()
     {
         if (Instance == null)
@@ -23,12 +31,19 @@ public class TutorialManager : MonoBehaviour
     {
         ResetSlides();
         ColorUtility.TryParseHtmlString("#FFF4D6", out Color warmColor);
+<<<<<<< Updated upstream
         environmentLight.color = warmColor;
     }
 
     public GameObject canvas;
     public List<GameObject> slides = new List<GameObject>();
     public int current = 0;
+=======
+        environmentLight.color = warmColor;       
+    }
+
+  
+>>>>>>> Stashed changes
 
     private void OnValidate()
     {
@@ -62,6 +77,13 @@ public class TutorialManager : MonoBehaviour
         slides[0].SetActive(true);
         current = 0;
 
+<<<<<<< Updated upstream
+=======
+        foreach (var activities in activities)
+        {
+            activities.SetActive(false);
+        }
+>>>>>>> Stashed changes
     }
 
     [ContextMenu("Change the next slide")]
@@ -84,7 +106,18 @@ public class TutorialManager : MonoBehaviour
         {
             ResetSlides();
             current = 0;
+<<<<<<< Updated upstream
         }        
+=======
+        }     
+        
+
+        // Scene 6
+
+        
+        environmentLight.intensity = current == 5 ? 0.25f : 1f;
+
+>>>>>>> Stashed changes
     }
 
 
